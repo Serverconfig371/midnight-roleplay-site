@@ -1,0 +1,1 @@
+console.log("Midnight Roleplay website loaded.");

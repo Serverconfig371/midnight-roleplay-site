@@ -1,0 +1,153 @@
+body{
+
+margin:0;
+font-family:'Orbitron',sans-serif;
+background:#050010;
+color:white;
+
+}
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(10px);
+
+}
+
+nav a{
+
+color:white;
+text-decoration:none;
+margin-left:25px;
+
+}
+
+nav a:hover{
+
+color:#ff2fd1;
+
+}
+
+/* HERO */
+
+.hero{
+
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:radial-gradient(circle,#140028,#000);
+
+}
+
+.mainlogo{
+
+width:300px;
+margin-bottom:20px;
+
+}
+
+.hero h1{
+
+font-size:55px;
+
+background:linear-gradient(90deg,#ff2fd1,#00eaff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+/* BUTTONS */
+
+.btn{
+
+padding:15px 30px;
+border-radius:30px;
+text-decoration:none;
+margin:10px;
+display:inline-block;
+
+}
+
+.primary{
+
+background:linear-gradient(90deg,#ff2fd1,#00eaff);
+box-shadow:0 0 20px #ff2fd1;
+
+}
+
+.secondary{
+
+border:2px solid #00eaff;
+
+}
+
+.big{
+
+font-size:20px;
+
+}
+
+/* FEATURES */
+
+.features{
+
+padding:100px 10%;
+text-align:center;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,0.05);
+padding:30px;
+border-radius:20px;
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+background:rgba(255,255,255,0.1);
+
+}
+
+/* JOIN */
+
+.join{
+
+text-align:center;
+padding:100px 10%;
+
+background:linear-gradient(180deg,#000,#140028);
+
+}
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+padding:30px;
+background:black;
+opacity:0.7;
+
+}
